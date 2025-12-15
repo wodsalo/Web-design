@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Pacifico&display=swap" rel="stylesheet">
+<style>
+html{
+  padding: 25px 50px 100px 75px;
+  background-color: rgb(255, 0, 191);
+}
+body{
+  background-color: rgb(51, 255, 0);
+  padding: 25px;
+}
+h1, h2{
+  color: rgb(255, 0, 242);
+  font-weight: bold;
+  font-style: italic;
+}
+h1 {
+  font-size: 3.5em;
+  background-color: rgb(68, 0, 255);
+  padding: 5px;
+}
+h2 {
+  font-size: 3.5em;
+  background-color: rgb(68, 0, 255);
+  padding: 5px;
+}
+p {
+   font-family: "Inter", sans-serif;
+}
+footer {
+  bottom: 0;
+  color:rgb(255, 14, 14); 
+}
+.f {
+  font-family: "Inter", sans-serif;
+  border-bottom: 2px solid rgb(0, 4, 255);
+  padding-top: 100px;
+  padding-bottom: 500px;
+  text-align: center;
+}
+</style>
+<meta charset="UTF-8">
+<title>Селекторы</title>
+
+</head>
+<body>
+<article>
+<div>
+  Большая книга CSS
+</div>
+<h1>Потрясающий мир CSS</h1>
+<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
+<img src="data:image/jpeg;base64,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" alt="">
+<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+<p><strong>ПРИМЕЧАНИЕ:</strong> Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? </p>
+<h2>Кто знаком с мощью CSS?</h2>
+<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+<p><strong>ПРИМЕЧАНИЕ:</strong> Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? </p>
+<h3>Не я!</h3>
+<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+<h3>Никто!</h3>
+<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+<img src="https://habrastorage.org/getpro/geektimes/post_images/8e4/280/513/8e4280513e5ce95c5bf53415b3c3a362.gif" wight = "240" height="290" >
+</article>
+<footer>
+  <p class="f"> Ефимов Ростислав. 2025, группа 3.008.2.22</p>
+</footer>
+</body>
+</html>
