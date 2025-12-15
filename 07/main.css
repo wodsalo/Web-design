@@ -1,0 +1,127 @@
+/* сброс стилей браузера */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1.2;
+}
+ol { 
+  padding-left: 1.4em;
+  list-style: decimal;
+}
+ul {
+  padding-left: 1.4em;
+  list-style: square;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+} 
+/* конец кода сброса стилей браузера */
+
+
+html {
+  background: url(https://thumbs.dreamstime.com/b/%D1%84%D0%BE%D0%BD%D0%BE%D0%B2%D1%8B%D0%B9-%D1%84%D0%BE%D0%BD-%D1%86%D0%B5%D0%BC%D0%B5%D0%BD%D1%82%D0%BD%D0%BE%D0%B9-%D1%81%D1%82%D0%B5%D0%BD%D1%8B-%D0%B0%D0%BA%D1%80%D0%B8%D0%BB%D0%BE%D0%B2%D0%B0%D1%8F-%D1%81%D0%B5%D1%80%D0%B0%D1%8F-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D1%83%D1%80%D0%B0-%D1%86%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D1%8B%D0%B5-%D0%BE%D0%B1%D0%BE%D0%B8-161378433.jpg);
+}
+
+body {
+  background-color: white;
+  border: 3px solid rgb(123, 123, 123);
+  max-width: 860px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  box-shadow: 0 0 15px 5px rgba(14, 13, 13, 0.7);
+}
+
+h1 {
+  font-size: 2.75em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: normal;
+  text-align: center;
+  letter-spacing: 1px;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  background: url(https://img-webcalypt.ru/uploads/admin/images/meme-templates/gqlk0Iqky48JNIrs1aBx4E1R2kEsvrtz.jpg);
+  background-size: contain;
+  opacity: 0.5;
+  padding: 5px 15px 2px 15px;
+  margin: 0 -55px 20px -55px;
+  border-radius: 10px;
+  border: 3px dotted rgb(113, 130, 160);
+}
+
+h2 {
+  font-size: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(5, 78, 74);
+  border-top: 2px dotted rgb(45, 186, 24);
+  border-bottom: 2px dotted rgb(45, 186, 24);
+  padding-top: 5px;
+  margin: 15px 0 5px 0px;
+}
+
+.side {
+  float: right;
+  width: 30%;
+  margin: 10px;
+  background-color: azure;
+  padding: 10px 20px;
+  border: 2px dotted red;
+  border-top: 20px solid red;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgba(14, 13, 13, 0.7);
+  
+}
+
+.side h2 {
+  border: none;
+  margin-top: 0;
+  padding: 0;
+}
+
+#banner {
+  text-align: center;
+}
+
+.side img {
+  width: 40%;
+  border: 2px dotted rgb(113, 130, 160);
+   box-shadow: 5px 5px 10px rgba(14, 13, 13, 0.7);
+}
+
+.h22 {
+  background-color: aquamarine;
+  border-radius: 20px;
+  padding-left: 20px;
+}
+
+.block {
+  border: 2px solid rgb(113, 130, 160);
+  margin-top: 100px;
+}
+
+.podpis {
+  background: url(https://media.istockphoto.com/id/157591528/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%B7%D0%BE%D0%BB%D0%BE%D1%82%D0%BE%D0%B9-%D1%84%D0%BE%D0%BD-%D1%82%D0%B5%D0%BA%D1%81%D1%82%D1%83%D1%80%D0%B0.jpg?s=612x612&w=0&k=20&c=Lc1nDwOtHwLlS5KTx3lMF78t7vbP-uP4NPsxYPk4cYA=);
+  padding: 15px;
+  margin: 10px;
+  border-radius: 6px;
+  border: 5px double rgba(14, 13, 13, 0.7);
+    box-shadow: 0 0 15px 5px rgba(14, 13, 13, 0.7);
+
+}
+
+.block p img {
+  width: 5%;
+}
