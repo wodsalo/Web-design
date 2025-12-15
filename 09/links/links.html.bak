@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Типографика CSS</title>
+<link href="main.css" rel="stylesheet">
+<style>
+
+
+</style>	
+</head>
+
+<body>
+<div class="main">
+<h1>Большая книга <strong>CSS</strong></h1>
+<h2>Обзор возможностей типографики</h2>
+<p class="byline">31 октября <strong>Роман Дибров</strong></p>
+<div class="resources">
+<h3>Ресурсы</h3>
+<ul>
+  <li><a href="https://ru.wikipedia.org/wiki/%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80_%D0%9C%D0%B0%D0%BA%D0%B5%D0%B4%D0%BE%D0%BD%D1%81%D0%BA%D0%B8%D0%B9">Александр</a></li>
+  <li><a href="https://www.techinsider.ru/popmem/1571931-50-ochen-smeshnyh-snimkov-kotov-eti-pushistye-huligany-stali-zvezdami-seti/">смешные коты</a></li>
+  <li><a href="logos.zip">траляляля</a></li>
+  <li><a href="https://www.yahoo.com/">юхуууууууууу</a></li>
+  <li><a href="https://skillbox.ru/media/design/veb_dizayn_s_nulya/">веб дизайн</a></li>
+</ul>
+</div>
+<h3>Esse quam nulla</h3>
+<p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? <a href="test.html">Quis autem vel eum</a> iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi <a href="test2.html">ut aliquid ex ea commodi</a> consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+<h3>Quis autem vel eum</h3>
+<p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illu <a href="test3.html">qui dolorem eum</a> fugiat quo voluptas nulla pariatur? Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+<p class="legal">Рыжков Илья</a></p>
+</div>
+</body>
+</html>

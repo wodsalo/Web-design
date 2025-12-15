@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CosmoFarmer</title>
+<style>
+
+</style>
+<link href="styles.css" rel=style>
+</head>
+<body class="index">
+<nav>
+  <ul class="mainNav">
+    <li><a class="indexNav" href="index.html">Главная</a></li>
+    <li><a class="featuresNav" href="features.html">Сенсации</a></li>
+    <li><a class="expertsNav" href="experts.html">Экспертизы</a></li>
+    <li><a class="quizNav" href="quiz.html">Мистификации</a></li>
+    <li><a class="projectsNav" href="projects.html">Проекты</a></li>
+    <li><a class="horoscopesNav" href="horoscopes.html">Гороскопы</a></li>
+  </ul>
+</nav>
+</body>
+</html>

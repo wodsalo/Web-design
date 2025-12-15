@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Типографика CSS</title>
+<style>
+
+a { 
+  color: #207EBF;
+}
+
+a:visited {
+	color: #999;
+}
+
+</style>	
+<link href="main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="main">
+<h1>Большая книга <strong>CSS</strong></h1>
+<h2>Это просто тест (<a href="links.html">щелкните здесь, чтобы вернуться</a>)</h2>
+<p class="byline">&nbsp;</p>
+<p class="legal">Рыжков Илья</a></p>
+</div>
+</body>
+</html>
